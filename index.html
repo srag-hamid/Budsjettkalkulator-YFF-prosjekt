@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Budsjettkalkulator</h1>
+
+<h2>Personlig økonomi</h2>
+
+<form id="budgetForm">
+
+    <label for="name">inntekter</label>
+    <input id="name" type="text" required>
+
+    <label for="amount">Beløp</label>
+    <input id="amount" type="number" required>
+
+    <label for="type">Type</label>
+    <select id="type">
+        <option value="income">Inntekt</option>
+        <option value="expense">Utgift</option>
+    </select>
+
+    <label for="category">Kategori</label>
+    <select id="category">
+        <option value="Lønn">Lønn</option>
+        <option value="Skatt">Skatt</option>
+        <option value="Mat">Mat</option>
+        <option value="Husleie">Husleie</option>
+        <option value="Lån">Lån</option>
+        <option value="Transport">Transport</option>
+        <option value="Annet">Annet</option>
+    </select>
+
+    <button type="submit">Legg til</button>
+
+</form>
+
+<section>
+    <h2>Oversikt</h2>
+    <div id="transactions"></div>
+</section>
+
+<section>
+    <h2>Resultat</h2>
+
+    <p>Totale inntekter: <span id="income">0</span> kr</p>
+    <p>Totale utgifter: <span id="expenses">0</span> kr</p>
+    <p>Saldo: <span id="balance">0</span> kr</p>
+</section>
+
+<script src="yff.js"></script>
+</body>
+</html>
