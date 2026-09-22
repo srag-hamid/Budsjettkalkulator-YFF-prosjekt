@@ -15,6 +15,98 @@ color: #222;
 h2 {
 color: darkblue;
 }
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ebef;
+    margin: 30px;
+    color: #222;
+}
+
+h2 {
+    color: darkblue;
+}
+
+/* Skjemaet */
+form {
+    background-color: white;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Knappen */
+button {
+    margin-top: 18px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Oversikt og resultat */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#transactions p {
+    background-color: #f0f3f5;
+    padding: 10px;
+    border-radius: 6px;
+    border-left: 4px solid darkblue;
+}
+
+/* Tallene */
+#income {
+    color: green;
+    font-weight: bold;
+}
+
+#expenses {
+    color: red;
+    font-weight: bold;
+}
+
+#balance {
+    font-weight: bold;
+    font-size: 20px;
+}
 
 /* Skjemaet */
 form {
